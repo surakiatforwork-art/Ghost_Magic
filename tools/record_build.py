@@ -20,7 +20,7 @@ with zipfile.ZipFile(apk) as z:
     helpers = [p for p in z.namelist() if p.endswith('.apk')]
     assert not helpers
 record = {
-    'artifact': apk.name, 'version': version, 'buildDateBangkok': '2026-10-16',
+    'artifact': apk.name, 'version': version, 'buildDateBangkok': '2026-10-19',
     'package': 'com.ghostmagic.android', 'minSdk': 26, 'targetSdk': 36,
     'bytes': apk.stat().st_size, 'sha256': hashlib.sha256(apk.read_bytes()).hexdigest(),
     'signing': 'local Android debug key; experimental use',

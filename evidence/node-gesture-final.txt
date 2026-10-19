@@ -1,0 +1,8 @@
+
+com.ghostmagic.android.GraphGestureIntegrationTest:.......
+
+Time: 3.356
+
+OK (7 tests)
+
+

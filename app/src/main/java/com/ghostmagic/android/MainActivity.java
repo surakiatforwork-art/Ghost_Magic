@@ -23,7 +23,7 @@ import java.text.DateFormat;
 import com.ghostmagic.core.legacy.*;
 
 public final class MainActivity extends Activity {
-    private static final int BG=0xff10151e,PANEL=0xff202a38,INK=0xffedf4fc,MUTED=0xffa7b5c8,ACCENT=0xff70e4c5;
+    private static final int BG=0xff222222,PANEL=0xff111111,INK=0xffffffff,MUTED=0xffbebebe,ACCENT=0xff31b6e7;
     private FlowStore store;
     private List<FlowDocument> documents=new ArrayList<>();
     private FlowDocument current;
@@ -76,46 +76,56 @@ public final class MainActivity extends Activity {
     }
     private int dp(float v) { return Math.round(v*getResources().getDisplayMetrics().density); }
     private TextView text(String s,int size,int color) { TextView t=new TextView(this);t.setText(s);t.setTextSize(size);t.setTextColor(color);t.setPadding(0,dp(5),0,dp(5));return t; }
-    private GradientDrawable shape(int color) { GradientDrawable d=new GradientDrawable();d.setColor(color);d.setCornerRadius(dp(14));return d; }
+    private GradientDrawable shape(int color) { GradientDrawable d=new GradientDrawable();d.setColor(color);d.setCornerRadius(dp(2));return d; }
     private LinearLayout column() { LinearLayout l=new LinearLayout(this);l.setOrientation(LinearLayout.VERTICAL);return l; }
     private Button button(String title,Runnable action) { Button b=new Button(this);b.setText(title);b.setAllCaps(false);b.setTextColor(ACCENT);b.setBackground(shape(PANEL));b.setPadding(dp(16),0,dp(16),0);b.setMinHeight(dp(48));b.setOnClickListener(v->action.run());return b; }
     private void screen(String eyebrow,String title,String sub) {
-        root=column();root.setBackgroundColor(BG);root.setPadding(dp(18),0,dp(18),0);
+        root=column();root.setBackgroundColor(BG);
         root.setOnApplyWindowInsetsListener((view,insets)->{
-            if(Build.VERSION.SDK_INT>=30){
-                android.graphics.Insets bars=insets.getInsets(WindowInsets.Type.systemBars()|WindowInsets.Type.displayCutout());
-                view.setPadding(dp(18)+bars.left,bars.top+dp(10),dp(18)+bars.right,bars.bottom+dp(8));
-            }else view.setPadding(dp(18)+insets.getSystemWindowInsetLeft(),insets.getSystemWindowInsetTop()+dp(10),dp(18)+insets.getSystemWindowInsetRight(),insets.getSystemWindowInsetBottom()+dp(8));
+            if(Build.VERSION.SDK_INT>=30){android.graphics.Insets bars=insets.getInsets(WindowInsets.Type.systemBars()|WindowInsets.Type.displayCutout());view.setPadding(bars.left,bars.top,bars.right,bars.bottom);}
+            else view.setPadding(insets.getSystemWindowInsetLeft(),insets.getSystemWindowInsetTop(),insets.getSystemWindowInsetRight(),insets.getSystemWindowInsetBottom());
             return insets;
         });
         setContentView(root);root.requestApplyInsets();
-        TextView e=text(eyebrow,10,ACCENT);e.setLetterSpacing(.16f);root.addView(e);
-        TextView heading=text(title,27,INK);heading.setTypeface(null,Typeface.BOLD);root.addView(heading);
-        root.addView(text(sub,12,MUTED));
+        LinearLayout bar=new LinearLayout(this);bar.setGravity(Gravity.CENTER_VERTICAL);bar.setBackgroundColor(PANEL);
+        Button back=button(current==null?"☰":"‹",()->{if(current==null)navigation();else leave(this::home);});back.setContentDescription(current==null?"Navigation menu":"Flows");bar.addView(back,new LinearLayout.LayoutParams(dp(48),dp(56)));
+        TextView heading=text(title,20,INK);heading.setSingleLine(true);heading.setEllipsize(android.text.TextUtils.TruncateAt.END);bar.addView(heading,new LinearLayout.LayoutParams(0,-2,1));
+        Button more=button("⋮",()->navigation());more.setContentDescription("More options");bar.addView(more,new LinearLayout.LayoutParams(dp(48),dp(56)));root.addView(bar);
+    }
+    private void navigation(){
+        String[] names=current==null?new String[]{"New flow","Import","Legacy library","History","Capabilities","Permissions","About"}:new String[]{"Save","Run","Schedule","History","Nodes","Fit","1:1","Export","Rename","Delete","Permissions"};
+        Runnable[] actions=current==null?new Runnable[]{this::newFlow,this::importFlow,this::legacyLibrary,this::history,this::capabilities,this::permissions,()->new AlertDialog.Builder(this).setTitle("Ghost Magic Android").setMessage("0.5 experimental\nIndependent reconstruction. Available capabilities and migration limits are listed in Capabilities.").setPositiveButton("OK",null).show()}:new Runnable[]{()->save(true),this::runFlow,this::schedule,this::history,this::nodeList,()->graph.fit(root.getWidth()),()->graph.zoom(1),this::exportFlow,this::rename,this::deleteFlow,this::permissions};
+        new AlertDialog.Builder(this).setTitle(current==null?"Ghost Magic Android":current.name).setItems(names,(d,i)->actions[i].run()).setNegativeButton("Close",null).show();
     }
     private void toolbar(String[] labels,Runnable[] actions) {
-        HorizontalScrollView sc=new HorizontalScrollView(this);sc.setHorizontalScrollBarEnabled(false);LinearLayout row=new LinearLayout(this);
-        for(int i=0;i<labels.length;i++) { Button b=button(labels[i],actions[i]); LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-2,dp(48));lp.setMarginEnd(dp(6));row.addView(b,lp); }
-        sc.addView(row);root.addView(sc);
+        HorizontalScrollView sc=new HorizontalScrollView(this);sc.setHorizontalScrollBarEnabled(false);LinearLayout row=new LinearLayout(this);row.setBackgroundColor(PANEL);
+        for(int i=0;i<labels.length;i++){Button b=button(labels[i],actions[i]);row.addView(b,new LinearLayout.LayoutParams(-2,dp(48)));}sc.addView(row);root.addView(sc);
     }
+    private String summaries(FlowDocument d,String kind){
+        List<String> names=new ArrayList<>();for(Node node:d.nodes)if(node.type().startsWith(kind+"."))names.add(Catalog.title(node.type()));return String.join(", ",names);
+    }
+    private void openFlow(FlowDocument d){try{current=FlowDocument.parse(d.json().toString());dirty=false;editor();}catch(Exception e){error(e);}}
     private void home() {
-        current=null;dirty=false;
-        screen("GHOST MAGIC / EXPERIMENTAL 0.4","Your automations","Manual and periodic flows · OCR Text Reader\nAndroid may delay scheduled work. Physical-device validation pending.");
-        toolbar(new String[]{"New flow","Import","Legacy","History","Capabilities","Permissions"},new Runnable[]{this::newFlow,this::importFlow,this::legacyLibrary,this::history,this::capabilities,this::permissions});
-        ScrollView scroll=new ScrollView(this);LinearLayout list=column();
-        TextView intro=text("Build a graph. Follow every decision.",17,INK);list.addView(intro);
-        for(FlowDocument d:documents) {
-            LinearLayout card=column();card.setPadding(dp(16),dp(12),dp(16),dp(12));card.setBackground(shape(PANEL));
-            RuntimeDatabase.Schedule schedule=RuntimeDatabase.get(this).schedule(d.id);
-            String state=schedule!=null&&schedule.enabled()?"every "+schedule.intervalMinutes()+" min (flexible)":"schedule off";
-            card.addView(text(d.name,19,INK));card.addView(text(d.nodes.size()+" nodes  ·  revision "+d.revision+"  ·  "+state,12,MUTED));
-            card.addView(button("Open flow",()->{ try { current=FlowDocument.parse(d.json().toString());dirty=false;editor(); } catch(Exception e) { error(e); } }));
-            LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-1,-2);lp.bottomMargin=dp(12);list.addView(card,lp);
+        current=null;dirty=false;screen("","Ghost Magic Android","");
+        FrameLayout area=new FrameLayout(this);ScrollView scroll=new ScrollView(this);LinearLayout list=column();list.setPadding(0,0,0,dp(80));
+        TextView group=text("▾  Flows ("+documents.size()+")",18,INK);group.setTypeface(null,Typeface.BOLD);group.setPadding(dp(12),dp(10),dp(12),dp(10));group.setBackgroundColor(0xff333333);list.addView(group);
+        for(FlowDocument d:documents){
+            LinearLayout item=column();item.setPadding(dp(8),dp(6),dp(6),dp(6));item.setBackgroundColor(BG);
+            LinearLayout top=new LinearLayout(this);top.setGravity(Gravity.CENTER_VERTICAL);
+            Button name=button(d.name,()->openFlow(d));name.setTextColor(INK);name.setTextSize(16);name.setGravity(Gravity.START|Gravity.CENTER_VERTICAL);name.setTypeface(null,Typeface.BOLD);name.setContentDescription("Open flow");name.setBackgroundColor(BG);top.addView(name,new LinearLayout.LayoutParams(0,-2,1));
+            RuntimeDatabase.Schedule state=RuntimeDatabase.get(this).schedule(d.id);boolean enabled=state!=null&&state.enabled();
+            Switch toggle=new Switch(this);toggle.setText(" ");toggle.setChecked(enabled);toggle.setContentDescription("Periodic schedule: "+d.name);toggle.setOnCheckedChangeListener((v,on)->{try{if(on)new ScheduleController(this).enable(d);else new ScheduleController(this).disable(d.id);home();}catch(Exception e){error(e);home();}});
+            // A manual flow has no autonomous trigger; its switch must never imply activation.
+            boolean periodic=d.node(d.startId).type().equals("trigger.periodic");toggle.setEnabled(periodic);top.addView(toggle);item.addView(top);
+            LinearLayout bottom=new LinearLayout(this);LinearLayout descriptions=column();
+            String[] kinds={"trigger","condition","action"};String[] icons={"▢  ","◇  ","□  "};
+            for(int i=0;i<kinds.length;i++){TextView summary=text(icons[i]+summaries(d,kinds[i]),12,0xffaaaaaa);summary.setSingleLine(true);summary.setEllipsize(android.text.TextUtils.TruncateAt.END);summary.setPadding(dp(4),dp(1),dp(4),dp(1));summary.setOnClickListener(v->openFlow(d));descriptions.addView(summary);}
+            bottom.addView(descriptions,new LinearLayout.LayoutParams(0,-2,1));Button menu=button("⋮",()->{openFlow(d);navigation();});menu.setContentDescription("Flow options: "+d.name);bottom.addView(menu,new LinearLayout.LayoutParams(dp(48),dp(48)));item.addView(bottom);list.addView(item);
+            View divider=new View(this);divider.setBackgroundColor(0xff414141);list.addView(divider,new LinearLayout.LayoutParams(-1,dp(1)));
         }
-        if(documents.isEmpty())list.addView(text("No flows yet. Create one to begin.",16,MUTED));
-        if(lastResult!=null)list.addView(button("Last run: "+lastFlowName+" · "+lastResult.status(),()->showResult(lastResult)));
-        list.addView(text("Legacy .flows can be archived and inspected; executable conversion is still in development. Event triggers, exact alarms and scripts remain future work.",12,MUTED));
-        scroll.addView(list);root.addView(scroll,new LinearLayout.LayoutParams(-1,0,1));
+        group.setOnClickListener(v->{boolean hide=list.getChildCount()>1&&list.getChildAt(1).getVisibility()==View.VISIBLE;for(int i=1;i<list.getChildCount();i++)list.getChildAt(i).setVisibility(hide?View.GONE:View.VISIBLE);group.setText((hide?"▸":"▾")+"  Flows ("+documents.size()+")");});
+        if(documents.isEmpty())list.addView(text("No flows. Tap + to create a flow.",16,MUTED));
+        scroll.addView(list);area.addView(scroll,new FrameLayout.LayoutParams(-1,-1));Button add=button("+",this::newFlow);add.setTextSize(28);add.setContentDescription("New flow");add.setBackground(shape(0xff22718d));FrameLayout.LayoutParams plus=new FrameLayout.LayoutParams(dp(56),dp(56),Gravity.BOTTOM|Gravity.END);plus.setMargins(dp(16),dp(16),dp(16),dp(16));area.addView(add,plus);root.addView(area,new LinearLayout.LayoutParams(-1,0,1));
     }
     private void newFlow() {
         EditText name=new EditText(this);name.setHint("Flow name");name.setSingleLine(true);
@@ -125,22 +135,45 @@ public final class MainActivity extends Activity {
         }).setNegativeButton("Cancel",null).show();
     }
     private void editor() {
-        screen("FLOW STUDIO / "+(current.node(current.startId).type().equals("trigger.periodic")?"PERIODIC":"MANUAL"),current.name,"Tap nodes to configure. Drag to arrange. Schedule controls background execution.");
-        toolbar(new String[]{"Flows","Add node","Save","Run","Schedule","History","Nodes","Fit","1:1","Export","Rename","Delete"},new Runnable[]{()->leave(this::home),this::addNode,()->save(true),this::runFlow,this::schedule,this::history,this::nodeList,()->graph.fit(root.getWidth()-root.getPaddingLeft()-root.getPaddingRight()),()->graph.zoom(1),this::exportFlow,this::rename,this::deleteFlow});
-        TextView hint=text("Amber = trigger   ·   Violet = condition   ·   Mint = action\nAn unconnected output ends that execution path.",11,MUTED);root.addView(hint);
+        screen("",current.name,"");
+        toolbar(new String[]{"Add node","Save","Run","Schedule"},new Runnable[]{this::addNode,()->save(true),this::runFlow,this::schedule});
         ScrollView vertical=new ScrollView(this);HorizontalScrollView horizontal=new HorizontalScrollView(this);
-        graph=new GraphView(this,current,new GraphView.Listener(){ public void edit(Node n){editNode(n);}public void moved(){dirty=true;} });
+        graph=new GraphView(this,current,new GraphView.Listener(){ public void edit(Node n){editNode(n);}public void moved(){dirty=true;} public void connect(Node from,Node to){connectFromHandle(from,to);} public void add(Node from,float x,float y){addFromHandle(from,x,y);} });
         horizontal.addView(graph);vertical.addView(horizontal);root.addView(vertical,new LinearLayout.LayoutParams(-1,0,1));
-        root.addView(text("Local experimental runtime · 1 run at a time · 1,000 steps / 120 s limit",10,MUTED));
+
     }
-    private void addNode() {
-        List<Catalog.Capability> choices=new ArrayList<>();for(Catalog.Capability c:Catalog.ALL)if(!c.type().startsWith("trigger"))choices.add(c);
+    private void addNode(){
+        new AlertDialog.Builder(this).setTitle("Add element").setItems(new String[]{"Trigger","Condition","Action"},(d,i)->chooseType(new String[]{"trigger","condition","action"}[i],null)).setNegativeButton("Cancel",null).show();
+    }
+    private void withOutput(Node source,java.util.function.Consumer<String> action){
+        java.util.function.Consumer<String> check=port->{
+            Edge existing=current.edges.stream().filter(e->e.from().equals(source.id())&&e.port().equals(port)).findFirst().orElse(null);
+            if(existing==null)action.accept(port);
+            else new AlertDialog.Builder(this).setTitle("Replace connection?").setMessage("The "+port+" output already has a connection. Replace it?").setPositiveButton("Replace",(d,w)->action.accept(port)).setNegativeButton("Cancel",null).show();
+        };
+        if(!source.type().startsWith("condition")){check.accept("next");return;}
+        String[] ports={"true","false","error"};
+        new AlertDialog.Builder(this).setTitle("Output connection").setItems(ports,(d,i)->check.accept(ports[i])).setNegativeButton("Cancel",null).show();
+    }
+    private void connectFromHandle(Node source,Node target){
+        if(source.id().equals(target.id())||target.type().startsWith("trigger")){toast("Choose another Action or Condition as the target");return;}
+        withOutput(source,port->{current.connect(source.id(),port,target.id());dirty=true;graph.invalidate();});
+    }
+    private void addFromHandle(Node source,float x,float y){
+        withOutput(source,port->new AlertDialog.Builder(this).setTitle("Add connected element").setItems(new String[]{"Condition","Action"},(d,i)->chooseType(i==0?"condition":"action",null,node->{current.positions.put(node.id(),new float[]{x,y});current.connect(source.id(),port,node.id());})).setNegativeButton("Cancel",null).show());
+    }
+    private void chooseType(String kind,Node replace){chooseType(kind,replace,null);}
+    private void chooseType(String kind,Node replace,java.util.function.Consumer<Node> added){
+        List<Catalog.Capability> choices=new ArrayList<>();for(Catalog.Capability c:Catalog.ALL)if(c.type().startsWith(kind+"."))choices.add(c);
         String[] labels=choices.stream().map(Catalog.Capability::name).toArray(String[]::new);
-        new AlertDialog.Builder(this).setTitle("Add capability").setItems(labels,(d,i)->{
-            Node previous=current.nodes.get(current.nodes.size()-1), n=current.add(choices.get(i).type());
-            boolean hasNext=current.edges.stream().anyMatch(e->e.from().equals(previous.id())&&e.port().equals("next"));
-            if(!previous.type().startsWith("condition")&&!hasNext)current.connect(previous.id(),"next",n.id());
-            dirty=true;editor();editNode(n);
+        new AlertDialog.Builder(this).setTitle("Select "+kind+" type").setItems(labels,(dialog,index)->{
+            Catalog.Capability cap=choices.get(index);Node existing=replace;
+            if(kind.equals("trigger")&&existing==null)existing=current.node(current.startId);
+            Node node;
+            if(existing!=null){Map<String,String> config=new LinkedHashMap<>();for(int i=0;i<cap.fields().length;i++)config.put(cap.fields()[i],cap.defaults()[i]);node=new Node(existing.id(),cap.type(),config);current.nodes.set(current.nodes.indexOf(existing),node);}
+            else{Node previous=current.nodes.get(current.nodes.size()-1);node=current.add(cap.type());boolean hasNext=current.edges.stream().anyMatch(e->e.from().equals(previous.id())&&e.port().equals("next"));if(added==null&&!previous.type().startsWith("condition")&&!hasNext)current.connect(previous.id(),"next",node.id());}
+            if(added!=null)added.accept(node);
+            dirty=true;editor();editNode(node);
         }).setNegativeButton("Cancel",null).show();
     }
     private void nodeList(){
@@ -151,6 +184,9 @@ public final class MainActivity extends Activity {
     private void editNode(Node node) { editNode(node,null,null); }
     private void editNode(Node node,Bundle draftFields,Bundle draftRoutes) {
         Catalog.Capability cap=Catalog.find(node.type());LinearLayout box=column();box.setPadding(dp(20),dp(4),dp(20),dp(8));
+        String kind=node.type().split("\\.")[0];
+        box.addView(text(Character.toUpperCase(kind.charAt(0))+kind.substring(1)+" type",13,ACCENT));
+        Button typeButton=button(cap.name()+"  ▾",()->{});box.addView(typeButton);
         box.addView(text(cap.description(),13,MUTED));Map<String,EditText> fields=new LinkedHashMap<>();
         for(String key:cap.fields()) { box.addView(text(key,12,ACCENT));EditText input=new EditText(this);input.setText(draftFields==null?node.config().getOrDefault(key,""):draftFields.getString(key,""));input.setTextSize(15);input.setTextColor(INK);input.setSelectAllOnFocus(true);box.addView(input);fields.put(key,input); }
         box.addView(text("Output routes",16,INK));
@@ -181,6 +217,7 @@ public final class MainActivity extends Activity {
             }));
             box.addView(button("Screen OCR access",this::ocrAccess));
         }
+        typeButton.setOnClickListener(v->{dialog.dismiss();chooseType(kind,node);});
         dialog.setOnShowListener(v->{
             dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(btn->{
                 Map<String,String> config=new LinkedHashMap<>();fields.forEach((k,input)->config.put(k,input.getText().toString()));
@@ -191,7 +228,7 @@ public final class MainActivity extends Activity {
                 dirty=true;dialog.dismiss();editor();
             });
             if(!node.type().startsWith("trigger"))dialog.getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener(btn->{current.remove(node.id());dirty=true;dialog.dismiss();editor();});
-        });dialog.show();
+        });dialog.show();dialog.getWindow().setLayout(-1,-1);
     }
     private boolean save(boolean notify) {
         int previousRevision=current.revision;

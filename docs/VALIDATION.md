@@ -1,3 +1,15 @@
+# Node controls milestone — 0.6 experimental, 2026-10-19
+
+Build, lint and 40 core tests pass. The Android suite passed 38 tests, including six new touch-dispatch tests for selection/edit, connecting existing nodes, dropping a new node, connector cancellation, moving a node, and zoomed coordinates. The suite ran before the final visual change that makes the plus icon follow the pointer and the simplification to direct next connections for Trigger/Action. The rebuilt APK passed real UI acceptance: selection controls, left edit, a new node at the drop position, replacement of the originating route, and a False connection to an existing node were verified against saved JSON (`evidence/node-controls-smoke.json`). The last adjustment caps handle hit areas at low zoom; all seven final gesture tests passed, including the minimum-zoom regression (`evidence/node-gesture-final.txt`). See [NODE_CONTROLS.md](NODE_CONTROLS.md) for the contract and limits.
+
+# UI reconstruction milestone — 0.5 experimental, 2026-10-19
+
+This milestone changes the flow list, component type selection, full-height node settings and graph rendering to follow the original visual references. It does not add missing original capabilities or establish pixel-perfect parity. See [CLASSIC_UI.md](CLASSIC_UI.md).
+
+0.5 verification: build, lint and 40 core tests pass. All 32 Android tests passed on the initial UI candidate; after the final list-row compacting, the APK was rebuilt and the interactive UI smoke passed (list → graph → category selection → full-height OCR settings → execution trace). Screen capture for the graph was repeated after waiting for UI idle. See `evidence/classic-ui-smoke.json` and local `evidence/classic-*.png`. This is not a fresh physical-device, scheduling reboot or original-app parity test.
+
+The sections below retain the earlier 0.4 and 0.3 validation history; they are not new claims about a 0.5 test run.
+
 # Validation record — 0.4.0 experimental, 2026-10-16
 
 ## Current OCR milestone (0.4)

@@ -110,7 +110,7 @@ public final class FlowIntegrationTest extends ActivityInstrumentationTestCase2<
         assertTrue("Execution did not complete through UI",completed);
     }
     private Button findButton(View root,String title) {
-        if(root instanceof Button&&((Button)root).getText().toString().equals(title))return (Button)root;
+        if(root instanceof Button&&(((Button)root).getText().toString().equals(title)||title.contentEquals(root.getContentDescription()==null?"":root.getContentDescription())))return (Button)root;
         if(root instanceof ViewGroup){ViewGroup g=(ViewGroup)root;for(int i=0;i<g.getChildCount();i++){Button found=findButton(g.getChildAt(i),title);if(found!=null)return found;}}
         return null;
     }

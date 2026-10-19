@@ -19,3 +19,6 @@ evidence/*
 !evidence/ocr-independent-review.md
 !evidence/background-smoke.txt
 !evidence/legacy-smoke.json
+!evidence/classic-ui-smoke.json
+!evidence/node-controls-smoke.json
+!evidence/node-gesture-final.txt
