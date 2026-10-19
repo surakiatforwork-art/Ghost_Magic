@@ -1,0 +1,4 @@
+* -text
+# Preserve fixture bytes and source hashes across Windows/Linux checkouts.
+gradlew text eol=lf
+*.jar binary

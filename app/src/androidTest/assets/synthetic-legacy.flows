@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC TEST FIXTURE: based on the blueprint, not exported by Automagic. -->
+<data version="1.37.0">
+  <trigger type="periodic_timer_inexact"><name>Timer</name><interval>60000</interval></trigger>
+  <condition type="battery_level"><name>Battery</name><futureSetting vendor="synthetic">preserve</futureSetting></condition>
+  <action type="write_to_log"><name>Write log</name><text><![CDATA[ทดสอบ <xml> & ${legacy_variable}]]></text></action>
+  <action type="plugin.unknown"><name>Unknown plugin</name><payload><value>retained</value></payload></action>
+  <flow type="flow">
+    <name>Synthetic legacy review</name><enabled>true</enabled><executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="start" x="50" y="50"><trigger>Timer</trigger></triggercontainer>
+    <conditioncontainer id="condition" x="50" y="200">Battery</conditioncontainer>
+    <actioncontainer id="yes" x="10" y="350">Write log</actioncontainer>
+    <actioncontainer id="no" x="300" y="350">Unknown plugin</actioncontainer>
+    <connection from="start" to="condition" type="NORMAL"/>
+    <connection from="condition" to="yes" type="TRUE"/>
+    <connection from="condition" to="no" type="FALSE"/>
+    <connection from="yes" to="no" type="EXCEPTION"/>
+    <unknownField marker="synthetic">never dropped from original</unknownField>
+  </flow>
+  <widget type="unknown"><metadata>preserved byte for byte in archive</metadata></widget>
+</data>

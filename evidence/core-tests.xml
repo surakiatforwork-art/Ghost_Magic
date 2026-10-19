@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="Ghost Magic core" tests="40" failures="0" errors="0" skipped="0"><testsuite name="com.ghostmagic.core.EngineTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-16T14:52:51" hostname="PHANTOM" time="0.108">
+  <properties />
+  <testcase name="invalidDelayRoutesConfigurationFailureWithoutSleeping" classname="com.ghostmagic.core.EngineTest" time="0.012" />
+  <testcase name="absentVariableSelectsFalseBranch" classname="com.ghostmagic.core.EngineTest" time="0.001" />
+  <testcase name="cycleStopsAtStepBudget" classname="com.ghostmagic.core.EngineTest" time="0.001" />
+  <testcase name="duplicatePortsAndIdsAreRejected" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="unhandledPermissionFailureStopsRun" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="missingStaticConfigurationRejectedBeforeAnyEffect" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="templatesExpandAcrossAssignmentConditionsAndPlatformAction" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="variableAndBatteryConditionsSelectOnlyTrueBranch" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="mixedTriggersAreRejected" classname="com.ghostmagic.core.EngineTest" time="0.001" />
+  <testcase name="missingTemplateVariableRoutesTypedError" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="templateReplacementPreservesLiteralRegexCharacters" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="periodicEntryUsesSameGraphSemantics" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="numericTemplatesAreValidatedAtRuntime" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="cancellationPreventsFollowingAction" classname="com.ghostmagic.core.EngineTest" time="0.001" />
+  <testcase name="unsupportedPlatformActionRoutesToErrorAndRetainsTypedFailure" classname="com.ghostmagic.core.EngineTest" time="0.0" />
+  <testcase name="delayEnforcesRunTimeout" classname="com.ghostmagic.core.EngineTest" time="0.053" />
+  <testcase name="subMinimumOrTemplatedPeriodicIntervalRejected" classname="com.ghostmagic.core.EngineTest" time="0.001" />
+  <testcase name="cancellationIsObservedInsideDelay" classname="com.ghostmagic.core.EngineTest" time="0.028" />
+  <testcase name="malformedGraphIsRejectedBeforeEffects" classname="com.ghostmagic.core.EngineTest" time="0.008" />
+  <system-out />
+  <system-err />
+</testsuite><testsuite name="com.ghostmagic.core.legacy.LegacyParserTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-16T14:52:51" hostname="PHANTOM" time="0.043">
+  <properties />
+  <testcase name="namesResolveOnlyWithinTheirObjectKind" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.02" />
+  <testcase name="sharedObjectsBranchesAndUnknownXmlRemainInspectable" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.003" />
+  <testcase name="oversizedDeepAndMalformedDocumentsFailClosed" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.007" />
+  <testcase name="dtdTextInsideCdataAndCommentsIsNotAnActualDeclaration" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.002" />
+  <testcase name="missingObjectsAndEdgesAreReportedWithSourceLines" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.002" />
+  <testcase name="multipleTriggersFanOutAndUnknownEdgesAreNeverFlattened" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.001" />
+  <testcase name="duplicateDefinitionsDoNotResolveArbitrarily" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.002" />
+  <testcase name="internalAndExternalDtdsAreRejectedBeforeExpansion" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.003" />
+  <testcase name="utf16InputIsReadAccordingToXmlEncoding" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.001" />
+  <testcase name="unknownVersionsAreRetainedForReview" classname="com.ghostmagic.core.legacy.LegacyParserTest" time="0.002" />
+  <system-out />
+  <system-err />
+</testsuite><testsuite name="com.ghostmagic.core.OcrEngineTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-16T14:52:51" hostname="PHANTOM" time="0.043">
+  <properties />
+  <testcase name="throwingCancelledHostNeverRunsRecoveryOrOverwritesOutput" classname="com.ghostmagic.core.OcrEngineTest" time="0.002" />
+  <testcase name="emptyRecognitionIsSuccessful" classname="com.ghostmagic.core.OcrEngineTest" time="0.001" />
+  <testcase name="throwingExpiredHostNeverRunsRecovery" classname="com.ghostmagic.core.OcrEngineTest" time="0.031" />
+  <testcase name="validTemplateProducesNamedOutput" classname="com.ghostmagic.core.OcrEngineTest" time="0.001" />
+  <testcase name="nullRecognitionIsTypedFailure" classname="com.ghostmagic.core.OcrEngineTest" time="0.001" />
+  <testcase name="templatesAreValidatedAfterExpansion" classname="com.ghostmagic.core.OcrEngineTest" time="0.0" />
+  <testcase name="invalidConfigurationsAreRejectedBeforeCallingHost" classname="com.ghostmagic.core.OcrEngineTest" time="0.005" />
+  <testcase name="recognizedTextFeedsTemplatesButOcrTraceContainsOnlyCount" classname="com.ghostmagic.core.OcrEngineTest" time="0.0" />
+  <testcase name="oldHostsFailWithRoutableUnsupported" classname="com.ghostmagic.core.OcrEngineTest" time="0.001" />
+  <testcase name="failureRoutesAndDoesNotOverwriteOutput" classname="com.ghostmagic.core.OcrEngineTest" time="0.0" />
+  <testcase name="cancellationDuringReadPreventsAssignmentAndNextAction" classname="com.ghostmagic.core.OcrEngineTest" time="0.0" />
+  <system-out />
+  <system-err />
+</testsuite></testsuites>

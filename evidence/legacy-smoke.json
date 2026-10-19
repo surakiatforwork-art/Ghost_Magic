@@ -1,0 +1,14 @@
+{
+  "fixture": "synthetic; not an actual Automagic export",
+  "sourceSha256": "975d3b4ff2b18dd14b1bc7104116a019cdc37df4e4287b0030dec0f3195e13c5",
+  "safImport": true,
+  "reportShowsSourceIdentityAndUnknownPlugin": true,
+  "exportOriginalByteExact": true,
+  "safReportExport": true,
+  "librarySurvivesProcessRestart": true,
+  "nativeFlowIdsUnchanged": true,
+  "activeJobs": 0,
+  "nativePeriodicJsonImportCreatesInactiveCopy": true,
+  "exportedOriginal": "ghost-legacy-roundtrip-9f9385.flows",
+  "exportedReport": "ghost-legacy-report-9f9385.txt"
+}

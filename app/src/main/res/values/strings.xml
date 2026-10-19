@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="ocr_accessibility_description">Captures a screenshot only when a screen OCR action runs. It does not read accessibility text, perform gestures, or monitor app events. Recognized text is stored in the flow output variable and run history. Enable only if you use screen OCR; you can disable it in Android Accessibility settings.</string></resources>

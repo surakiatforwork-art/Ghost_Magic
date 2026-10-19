@@ -1,0 +1,21 @@
+.gradle/
+**/build/
+local.properties
+.runtime/
+dist/
+*.apk
+*.apk+
+*.jks
+*.keystore
+.idea/
+*.iml
+__pycache__/
+*.pyc
+# Publish selected validation reports, not local captures or decoded reference packages.
+evidence/*
+!evidence/build-record.json
+!evidence/core-tests.xml
+!evidence/android-tests.xml
+!evidence/ocr-independent-review.md
+!evidence/background-smoke.txt
+!evidence/legacy-smoke.json

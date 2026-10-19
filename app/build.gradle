@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.ghostmagic.android'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.ghostmagic.android'
+        minSdk 26
+        targetSdk 36
+        versionCode 4
+        versionName '0.4.0-experimental'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunnerArguments package: 'com.ghostmagic.android'
+    }
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies {
+    implementation project(':core')
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
+    androidTestImplementation 'androidx.test:runner:1.7.0'
+    androidTestCompileOnly files("${android.sdkDirectory}/platforms/android-36/optional/android.test.runner.jar", "${android.sdkDirectory}/platforms/android-36/optional/android.test.base.jar", "${android.sdkDirectory}/platforms/android-36/optional/android.test.mock.jar")
+}

@@ -1,0 +1,4117 @@
+{
+  "schemaVersion": 1,
+  "legacySource": {
+    "apkFile": "automagic-automation.apk",
+    "sha256": "0AB40898C1D6D7F1CAC59B6119568C96FF586883392B228E6EB884C75212882A"
+  },
+  "scope": "Resource-derived candidates, not confirmed executable node types. This is a backlog, not an importer mapping.",
+  "candidateCount": 513,
+  "assessedPartialAnalogues": 7,
+  "verifiedSemanticParityCount": 0,
+  "entries": [
+    {
+      "kind": "action",
+      "legacyResourceVariant": "add_wifi_access_point",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "answer_ringing_call",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "call_number",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "clear_automagic_log",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "close_system_dialogs",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "combine_images",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "connect_disconnect_bluetooth_device_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "control_audio_player_broadcast",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "control_audio_player_media_button",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "control_user_interface",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "copy_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "copy_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "copy_text_from_clipboard",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "copy_text_to_clipboard",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "create_calendar_event_absolute",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "create_calendar_event_all_day",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "create_calendar_event_relative",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "create_directories",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "delete_app_cache",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "delete_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "delete_flows",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dismiss_slide_to_unlock_keyguard",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "do_nothing",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "download_url",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dropbox_create_directories",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dropbox_delete_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dropbox_download_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dropbox_init_variables_file_list",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dropbox_upload",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "dropbox_upload_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "enable_keep_screen_on_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "enable_wifi_access_point",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "end_call",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "execute_command",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "execute_flows",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "execute_root_command",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "execute_ssh_command",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "exit_device_idle_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "export_flows_widgets",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "finish_http_response",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "flashlight",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "ftp_create_directories",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "ftp_delete_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "ftp_download_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "ftp_init_variable_file_list",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "ftp_upload_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "ftp_upload_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "gleeo_create_entry",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "gleeo_export_to_filesystem",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "gleeo_start_recording",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "gleeo_stop_recording",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "gleeo_stop_recording_filtered",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "google_drive_create_directories",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "google_drive_delete_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "google_drive_download_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "google_drive_init_variables_file_list",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "google_drive_upload_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "hide_custom_widget_overlay",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "hide_custom_widget_overlay_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "http_request",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "import_flows_widgets",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_call_log_call",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_contact_list_all",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_contact_list_groups",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_device_orientation",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_file_list",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_image_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_image_metadata",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_installed_package_info",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_location",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_location_last_known",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_next_alarm",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_random_number",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_system_setting",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_system_setting_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_text_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variable_wifi_access_point_list",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_bluetooth_device_list",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_contact_info",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_file_info",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_gleeo_project_structure_domains",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_gleeo_project_structure_projects_all",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_gleeo_project_structure_projects_specific",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_gleeo_project_structure_tasks_all",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_gleeo_project_structure_tasks_specific",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_gleeo_recording",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_media_metadata",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_media_session",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_network_statistics",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_network_traffic_overall",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_network_traffic_uid",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "init_variables_phone_info",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "input_dialog",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "input_speech",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "input_speech_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "kill_app",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "kill_app_process",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "launch_app",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "launch_app_class",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "launch_shortcut",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "local_plugin",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "lock_device",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "mail_gmail",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "map_values",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "message_dialog",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "modify_automagic_notification_status_bar",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "modify_call_log",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "modify_image",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "modify_notification_channel",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "move_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "notification_screen",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "notification_screen_long",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "notification_screen_long_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "notification_screen_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "notification_status_bar",
+      "assessment": "partial-analogue",
+      "newType": "action.notification",
+      "semanticParityVerified": false,
+      "notes": "Simple own-app notification subset; legacy IDs, buttons and advanced semantics are not migrated."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "notification_status_bar_notification_id",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "open_browser_url",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "open_browser_url_explicit_component",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "perform_action_notification_status_bar_button",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "perform_action_notification_status_bar_content",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "perform_action_notification_status_bar_wearable_action",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "post_tweet",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "post_tweet_media_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "query_content_provider",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "reboot",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_missed_calls",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar_general",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar_general_app",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar_general_app_by_id",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar_general_app_by_id_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar_general_app_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_notification_status_bar_general_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "remove_wifi_access_point",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "request_sync",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "reregister_media_button_receiver",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "restore_audio_stream_volume",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "save_variable_image_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "save_widget_image_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "scan_barcode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "scan_barcode_timeout",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "script",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "seek_action_sound",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "send_broadcast",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "send_sms",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "send_sms_limited",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "send_ussd_request",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "send_wake_on_lan_packet",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_airplane_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_alarm",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_app_notification_peekable",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_app_notification_priority",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_app_notification_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_audio_manager_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_audio_stream_volume",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_audio_stream_volume_change",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_auto_rotate_screen_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_auto_sync_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_auto_sync_state_for_accounts",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_bluetooth_sco_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_bluetooth_sco_state_start_stop",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_bluetooth_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_bluetooth_tethering_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_camera_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_car_ui_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_cyanogen_mod_profile",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_data_roaming_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_default_input_method",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_default_ringtone",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_disabled_keyguard_features",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_flow_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_gps_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_immersive_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_interruptions_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_keyguard_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lineage_system_setting",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lock_password_clear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lock_password_set_password",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lock_password_set_password_variable",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lock_password_set_pin",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lock_password_set_pin_variable",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_lock_pattern_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_microphone_mute",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_mobile_datanetwork_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_mobile_network_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_network_location_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_nfc_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_night_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_power_save_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_proximity_screen_off_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_restrict_background_data",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_ringer_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_screen_brightness",
+      "assessment": "partial-analogue",
+      "newType": "action.brightness",
+      "semanticParityVerified": false,
+      "notes": "Partial manual-brightness subset; special access required. No automatic-mode override or legacy parity claim."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_screen_orientation",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_screen_timeout",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_speakerphone_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_system_locale",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_system_setting",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_system_setting_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_telephony_radio_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_timer",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_usb_debugging_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_usb_tethering_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_vibrate_on_ring_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_wallpaper",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_wifi_access_point_priority",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_wifi_sleep_policy",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_wifi_state",
+      "assessment": "partial-analogue",
+      "newType": "action.wifi.panel",
+      "semanticParityVerified": false,
+      "notes": "User-assisted redesign only. Opening the panel does not implement the legacy toggle."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_wifi_state_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "set_wifi_tethering_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_call_log",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_control_user_interface_gesture_recorder",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_control_user_interface_infos",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_custom_widget_overlay",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_custom_widget_overlay_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_home_screen",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_home_screen_page",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "show_input_method_selector",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "shutdown",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "silence_ringer",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "sleep",
+      "assessment": "partial-analogue",
+      "newType": "action.delay",
+      "semanticParityVerified": false,
+      "notes": "Bounded visible-lifecycle delay; no durable or device-sleep semantics."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "sleep_allow_sleep",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "snooze_notification",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "sound",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "speech_output",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_activity",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_daydream",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_recording_audio",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_recording_audio_max_duration",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_recording_screen",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_recording_video",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_recording_video_max_duration",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "start_service",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "stop_action_sound",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "stop_action_speech_output",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "stop_flows",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "stop_recording_audio",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "stop_recording_screen",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "store_audio_stream_volume",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "take_picture_app",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "take_picture_background",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "take_screenshot",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "trigger",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "turn_screen_on",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "turn_screen_on_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "unzip_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "update_media_database",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "update_quick_settings_tile",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "vibrate",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "vibrate_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "voice_search",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "wifi_reassociate",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "wifi_scan",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "write_http_response_file",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "write_http_response_text",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "write_to_file_append",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "write_to_file_overwrite",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "write_to_log",
+      "assessment": "partial-analogue",
+      "newType": "action.log",
+      "semanticParityVerified": false,
+      "notes": "Run-local trace analogue; not the legacy persistent log."
+    },
+    {
+      "kind": "action",
+      "legacyResourceVariant": "zip_files",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "active_network_type",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "activity_ended",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "activity_started",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "airplane_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "android_wear_device_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "app_package_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "app_task_ended",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "app_task_started",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "assist",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "audio_volume",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "audio_volume_changes",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "automagic_notification_selected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "automagic_startup",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "battery_level",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "battery_level_full",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "battery_level_full_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "battery_level_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "battery_low_okay",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "bluetooth_device_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "bluetooth_device_disconnected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "bluetooth_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "broadcast_battery",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "broadcast_bluetooth",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "broadcast_general",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "broadcast_power",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "calendar",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "calendar_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "car_ui_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "clipboard_changed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "command_output",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "compass_change",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "compass_change_when_steady",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "compass_frequency",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "compass_relative_sectors",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "content_provider_changed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "cyanogen_mod_quick_settings_tile_selected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "date_adjusted",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "daydream_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "desk_ui_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "device_idle_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "device_orientation",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "device_storage_space_low_okay",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "display_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "external_media",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "file_observer",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "fingerprint_gesture",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "gleeo_recording_started",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "gleeo_recording_started_filtered",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "gleeo_recording_stopped",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "gleeo_recording_stopped_filtered",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "global_variable",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "global_variable_date",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "gmail_unread_conversation_count",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "gps_status_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "hardware_keyboard_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "hardware_keyboard_type",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "heart_rate_ble",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "http_response",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "incoming_call",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "incoming_call_with_suppress_numbers",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "interruptions_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "k9_mail_received",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "key_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "key_event_block",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "light_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "local_plugin",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "local_plugin_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "locale_adjusted",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "location",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "location_named",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "location_provider_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "login_attempt_failed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "login_attempt_failed_1st_time",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "login_attempt_failed_2nd_time",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "login_attempt_failed_3rd_time",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "login_attempt_failed_nth_time",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "login_attempt_successful_after_failed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "magnetic_field_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "media_button_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "media_session_changed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "mobile_datanetwork_type",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "network_connectivity",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "nfc_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "nfc_tag",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_screen_displayed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_screen_displayed_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_status_bar_displayed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_status_bar_displayed_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_status_bar_removed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_status_bar_removed_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "notification_status_bar_selected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "outgoing_call",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_location_update",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_location_update_limit_time_range",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_timer",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_timer_inexact",
+      "assessment": "partial-analogue",
+      "newType": "trigger.periodic",
+      "semanticParityVerified": false,
+      "notes": "Deferrable JobScheduler intervals >=15 minutes; legacy timing, time-range filters and execution policy are not parity-verified."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_timer_inexact_limit_time_range",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_timer_limit_time_range",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_user_activity_update",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_user_activity_update_activity",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_user_activity_update_activity_limit_time_range",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "periodic_user_activity_update_limit_time_range",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_cdma",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_cdma_on_every_change",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_gsm_cid",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_gsm_lac",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_gsm_lac_or_cid",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_gsm_never",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_cell_gsm_on_every_change",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_service_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "phone_signal_strength",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "power_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "power_connected_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "power_save_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "pressure_change_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "pressure_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "proximity_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "quick_settings_tile_selected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "ringer_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "screen_orientation",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "send_intent_received",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "send_multiple_intent_received",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "shake",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "shortcut",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "shortcut_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "shutdown",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "significant_motion_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "sim_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "sms_delivery_report_received",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "sms_receive",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "sms_sent",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "sound_level",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "speech_web_search_requested",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "speed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "step_counter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "step_detected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "system_setting_changed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "system_setting_changed_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "take_note_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "theater_mode_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "time",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "time_adjusted",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "timezone_adjusted",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "user_interface_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "user_present",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "view_web_url_intent_received",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "voice_command_requested",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "wifi_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "wifi_disconnected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "wifi_scan_results_available",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "wifi_signal_level",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "wifi_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "trigger",
+      "legacyResourceVariant": "wifi_tethering_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "action_sound_playing",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "active_cyanogen_mod_profile",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "active_network_type",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "airplane_mode_on",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "android_wear_device_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "app_process_running",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "app_task_running",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "app_task_running_most_recent_only",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "audio_manager_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "audio_stream_active",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "audio_volume",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "auto_rotate_screen_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "auto_sync_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "auto_sync_enabled_default_name_for_accounts",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "battery_level",
+      "assessment": "partial-analogue",
+      "newType": "condition.battery.above",
+      "semanticParityVerified": false,
+      "notes": "Strict greater-than percentage subset; legacy modes need real fixture validation."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "battery_level_ble",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "battery_level_full",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "battery_level_full_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "battery_level_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "biometric_authentication_dialog",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "bluetooth_device_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "bluetooth_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "bluetooth_le_device_available",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "bluetooth_sco_on",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "calendar_event",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "call_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "confirmation_dialog",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "debug",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "debug_dialog",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "device_idle_mode_active",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "device_orientation",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "device_storage_space",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "device_storage_space_low",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "do_nothing",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "dock_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "execution_count",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "execution_count_timed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "expression",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "flashlight_on",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "flow_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "flow_executing",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "gleeo_recording",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "gleeo_recording_filtered",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "gmail_unread_conversation_count",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "hardware_keyboard_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "hardware_keyboard_type",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "host_reachable",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "interruptions_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "keyguard_locked",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "keyguard_secure",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "light_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "local_plugin",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "location",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "location_named",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "location_provider_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "magnetic_field_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "microphone_mute",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "mobile_datanetwork_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "mobile_datanetwork_type",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "music_active",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "network_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "nfc_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "night_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "notification_status_bar_displayed",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "notification_status_bar_displayed_filter",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_cell_cdma",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_cell_gsm_cid",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_cell_gsm_lac",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_cell_gsm_lac_or_cid",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_cell_gsm_never",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_service_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "phone_signal_strength",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "power_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "power_connected_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "power_save_mode_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "pressure_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "proximity_sensor",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "ringer_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "roaming",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "roaming_sim",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "root_setting_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "screen_auto_brightness_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "screen_on",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "screen_orientation",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "service_running",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "sound_level",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "speakerphone_on",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "telephony_radio_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "theater_mode_on_wear",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "time_range",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "ui_mode",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "usb_tethering_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "vibrate_on_ring_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "weather_forecast",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wifi_access_point_enabled",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wifi_available",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wifi_connected",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wifi_signal_level",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wifi_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wifi_tethering_state",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    },
+    {
+      "kind": "condition",
+      "legacyResourceVariant": "wired_headset_plugged",
+      "assessment": "unassessed",
+      "newType": null,
+      "semanticParityVerified": false,
+      "notes": "Requires evidence, API compatibility review, implementation and regression flows."
+    }
+  ]
+}

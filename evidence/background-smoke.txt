@@ -1,0 +1,4 @@
+Background JobService completed a saved periodic flow with the editor hidden.
+System job timeout cancelled an in-progress wait and did not execute its following action.
+Process death left an INTERRUPTED journal record; immediate repeated delivery produced no new run.
+Android retained the persisted job across reboot before opening the app; journal survived reboot.

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.ghostmagic.android.FlowIntegrationTest" tests="32" failures="0" errors="0" skipped="0" time="36.435" timestamp="2026-10-16T14:53:42" hostname="localhost">
+  <properties>
+    <property name="device" value="GhostMagic_Validation(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="testAtomicStorageRetainsIndependentFlowsAndDelete" classname="com.ghostmagic.android.FlowIntegrationTest" time="0.082" />
+  <testcase name="testBrightnessPermissionAndActualWriteAfterGrant" classname="com.ghostmagic.android.FlowIntegrationTest" time="2.008" />
+  <testcase name="testHomeCanOpenGraphAndRunDemoThroughUi" classname="com.ghostmagic.android.FlowIntegrationTest" time="1.625" />
+  <testcase name="testNotificationPermissionDeniedRoutesErrorThenGrantPosts" classname="com.ghostmagic.android.FlowIntegrationTest" time="0.876" />
+  <testcase name="testOversizedDocumentAndUnknownVersionRejected" classname="com.ghostmagic.android.FlowIntegrationTest" time="0.095" />
+  <testcase name="testRealBatteryAdapterExecutesExactlyOneBranch" classname="com.ghostmagic.android.FlowIntegrationTest" time="0.845" />
+  <testcase name="testRoundTripPreservesGraphAndNodePositions" classname="com.ghostmagic.android.FlowIntegrationTest" time="0.062" />
+  <testcase name="testUnknownCapabilitiesAndDanglingEdgesRejected" classname="com.ghostmagic.android.FlowIntegrationTest" time="0.044" />
+  <testcase name="testAndroidParserAndArchiveDoNotCreateFlowsOrSchedules" classname="com.ghostmagic.android.LegacyIntegrationTest" time="0.792" />
+  <testcase name="testChangedArchiveIsNotSilentlyReadOrOverwritten" classname="com.ghostmagic.android.LegacyIntegrationTest" time="0.935" />
+  <testcase name="testDtdAndMalformedXmlCannotEnterArchive" classname="com.ghostmagic.android.LegacyIntegrationTest" time="0.906" />
+  <testcase name="testMissingMetadataStillLeavesRecoverableOriginal" classname="com.ghostmagic.android.LegacyIntegrationTest" time="0.814" />
+  <testcase name="testRepeatedImportDeduplicatesWithoutOverwritingIdentity" classname="com.ghostmagic.android.LegacyIntegrationTest" time="0.78" />
+  <testcase name="testUtf16CommentsAndLineEndingsArePreservedByteForByte" classname="com.ghostmagic.android.LegacyIntegrationTest" time="0.78" />
+  <testcase name="testBlankImageReturnsEmptySuccess" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.448" />
+  <testcase name="testCancelledReadReleasesInput" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.029" />
+  <testcase name="testContentProviderDecodeAndRecognition" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.713" />
+  <testcase name="testEngineAndAndroidAdapterStoreRecognizedText" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.281" />
+  <testcase name="testMalformedProviderImageIsRejected" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.003" />
+  <testcase name="testNormalizedCropExcludesBottomText" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.167" />
+  <testcase name="testOversizedProviderImageIsRejected" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.061" />
+  <testcase name="testReadsGeneratedLatinText" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.278" />
+  <testcase name="testRotationIsAppliedBeforeRecognition" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.278" />
+  <testcase name="testUnavailableContentIsRoutableFailure" classname="com.ghostmagic.android.OcrIntegrationTest" time="0.002" />
+  <testcase name="testCaptureNeverBlocksMainThread" classname="com.ghostmagic.android.OcrScreenshotIntegrationTest" time="0.042" />
+  <testcase name="testUnconnectedServiceFailsWithTypedPermissionError" classname="com.ghostmagic.android.OcrScreenshotIntegrationTest" time="0.029" />
+  <testcase name="testBusyScheduledOccurrenceIsReservedInsteadOfReplayed" classname="com.ghostmagic.android.SchedulingIntegrationTest" time="0.807" />
+  <testcase name="testForegroundOnlyNodeBlocksScheduleAndBackgroundAdapter" classname="com.ghostmagic.android.SchedulingIntegrationTest" time="0.84" />
+  <testcase name="testManualAndBackgroundShareGuardAndCancelledHistory" classname="com.ghostmagic.android.SchedulingIntegrationTest" time="0.818" />
+  <testcase name="testPeriodicJobIsPersistedAndImportsStayInactive" classname="com.ghostmagic.android.SchedulingIntegrationTest" time="0.873" />
+  <testcase name="testRepeatedDeliveryAndRestoredJobDoNotReplayOccurrence" classname="com.ghostmagic.android.SchedulingIntegrationTest" time="0.877" />
+  <testcase name="testStaleRevisionAndDisabledScheduleHaveNoEffects" classname="com.ghostmagic.android.SchedulingIntegrationTest" time="0.817" />
+</testsuite>
